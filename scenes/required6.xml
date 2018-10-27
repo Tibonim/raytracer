@@ -1,0 +1,31 @@
+<scene>
+  <object>
+    <type>plan</type>
+    <position>0 0 0</position>
+    <color>888888</color>
+    <shine>0</shine>
+  </object>
+  <object>
+    <type>cylinder</type>
+    <position>300 0 -400</position>
+    <rotation>15 0 0</rotation>
+    <color>FFFFFF</color>
+    <ray>200</ray>
+    <shine>0</shine>
+  </object>
+  <object>
+    <type>sphere</type>
+    <position>0 0 200</position>
+    <color>FF0000</color>
+    <ray>300</ray>
+    <shine>0</shine>
+  </object>
+  <light>
+    <color>FFFFFF</color>
+    <position>250 -800 1200</position>
+  </light>
+  <camera>
+    <position>-9000 400 1000</position>
+    <rotation>0 4 0</rotation>
+  </camera>
+</scene>

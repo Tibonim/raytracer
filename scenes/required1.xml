@@ -1,0 +1,21 @@
+<scene>
+  <object>
+    <type>sphere</type>
+    <position>0 -200 -200</position>
+    <color>FF0000</color>
+    <ray>300</ray>
+    <shine>0</shine>
+  </object>
+  <light>
+    <color>FFFFFF</color>
+    <position>-100 -300 900</position>
+  </light>
+  <light>
+    <color>FFFFFF</color>
+    <position>-100 -900 -200</position>
+  </light>
+  <camera>
+    <position>-14000 0 0</position>
+    <rotation>0 0 0</rotation>
+  </camera>
+</scene>

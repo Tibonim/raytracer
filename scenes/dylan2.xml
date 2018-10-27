@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene>
+  <object>
+    <type>plan</type>
+    <position>0 0 0</position>
+    <color>58C0FF</color>
+    <shine>0</shine>
+  </object>
+  <object>
+    <type>plan</type>
+    <position>0 1000 0</position>
+    <rotation>90 0 0</rotation>
+    <color>58C0FF</color>
+    <shine>0</shine>
+  </object>
+  <object>
+    <type>plan</type>
+    <position>0 -1000 0</position>
+    <rotation>-90 0 0</rotation>
+    <color>58C0FF</color>
+    <shine>0</shine>
+  </object>
+  <object>
+    <type>plan</type>
+    <position>1000 0 0</position>
+    <rotation>0 -90 0</rotation>
+    <color>58C0FF</color>
+    <shine>0</shine>
+  </object>
+  <object>
+    <type>sphere</type>
+    <position>0 0 200</position>
+    <color>08C0FF</color>
+    <shine>0.7</shine>
+    <ray>100</ray>
+  </object>
+  <light>
+    <position>0 200 800</position>
+    <color>FF0000</color>
+  </light>
+  <camera>
+    <position>-10000 0 1000</position>
+    <rotation>0 4 0</rotation>
+  </camera>
+</scene>

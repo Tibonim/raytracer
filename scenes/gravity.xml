@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene>
+#----------------------------------------SUN
+  <light>
+    <position>0 0 50000</position>
+    <color>FF0000</color>
+  </light>
+  <object>
+    <type>sphere</type>
+    <position>0 0 200</position>
+    <color>FFB400</color>
+    <ray>200</ray>
+    <shine>1</shine>
+  </object>
+#----------------------------------------MERCURY
+  <object>
+    <type>sphere</type>
+    <position>0 350 200</position>
+    <color>330012</color>
+    <ray>30</ray>
+    <shine>0</shine>
+  </object>
+#----------------------------------------VENUS
+  <object>
+    <type>sphere</type>
+    <position>100 -300 200</position>
+    <color>FF6633</color>
+    <ray>80</ray>
+    <shine>0</shine>
+  </object>
+#----------------------------------------EARTH
+  <object>
+    <type>sphere</type>
+    <position>200 -450 200</position>
+    <color>046380</color>
+    <ray>60</ray>
+    <shine>0</shine>
+  </object>
+#----------------------------------------MARS
+  <object>
+    <type>sphere</type>
+    <position>-500 100 200</position>
+    <color>C03000</color>
+    <ray>50</ray>
+    <shine>0</shine>
+  </object>
+#----------------------------------------JUPITER
+  <object>
+    <type>sphere</type>
+    <position>650 0 200</position>
+    <color>BD8D46</color>
+    <ray>160</ray>
+    <shine>0</shine>
+  </object>
+#----------------------------------------SATURN
+  <object>
+    <type>sphere</type>
+    <position>700 300 200</position>
+    <color>F6E597</color>
+    <ray>90</ray>
+    <shine>0</shine>
+  </object>
+#----------------------------------------URANUS
+  <object>
+    <type>sphere</type>
+    <position>800 600 200</position>
+    <color>4BB5C1</color>
+    <ray>110</ray>
+    <shine>0</shine>
+  </object>
+#----------------------------------------NEPTUNE
+  <object>
+    <type>sphere</type>
+    <position>-900 300 200</position>
+    <color>093057</color>
+    <ray>80</ray>
+    <shine>0</shine>
+  </object>
+#----------------------------------------PLUTO
+  <object>
+    <type>sphere</type>
+    <position>-1000 0 200</position>
+    <color>093057</color>
+    <ray>20</ray>
+    <shine>0</shine>
+  </object>
+# -----------------------------------------CAMERAS
+  <camera>
+    <position>-12000 0 3000</position>
+    <rotation>0 12 0</rotation>
+  </camera>
+  <camera>
+    <position>-11135 -4500 3000</position>
+    <rotation>0 12 22</rotation>
+  </camera>
+  <camera>
+    <position>-8500 -8500 3000</position>
+    <rotation>0 12 45</rotation>
+  </camera>
+  <camera>
+    <position>-4500 -11135 3000</position>
+    <rotation>0 12 68</rotation>
+  </camera>
+# -----------------------------------------
+  <camera>
+    <position>0 -12000 3000</position>
+    <rotation>0 12 90</rotation>
+  </camera>
+  <camera>
+    <position>4500 -11135 3000</position>
+    <rotation>0 12 112</rotation>
+  </camera>
+  <camera>
+    <position>8500 -8500 3000</position>
+    <rotation>0 12 135</rotation>
+  </camera>
+  <camera>
+    <position>11135 -4500 3000</position>
+    <rotation>0 12 158</rotation>
+  </camera>
+# -----------------------------------------
+  <camera>
+    <position>12000 0 3000</position>
+    <rotation>0 12 180</rotation>
+  </camera>
+  <camera>
+    <position>11135 4500 3000</position>
+    <rotation>0 12 -158</rotation>
+  </camera>
+  <camera>
+    <position>8500 8500 3000</position>
+    <rotation>0 12 225</rotation>
+  </camera>
+  <camera>
+    <position>4500 11135 3000</position>
+    <rotation>0 12 -112</rotation>
+  </camera>
+# -----------------------------------------
+  <camera>
+    <position>0 12000 3000</position>
+    <rotation>0 12 -90</rotation>
+  </camera>
+  <camera>
+    <position>-4500 11135 3000</position>
+    <rotation>0 12 -68</rotation>
+  </camera>
+  <camera>
+    <position>-8500 8500 3000</position>
+    <rotation>0 12 -45</rotation>
+  </camera>
+  <camera>
+    <position>-11135 4500 3000</position>
+    <rotation>0 12 -22</rotation>
+  </camera>
+</scene>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene>
+  <object>
+    <type>sphere</type>
+    <position>0 0 200</position>
+    <color>08C0FF</color>
+    <shine>0</shine>
+    <ray>100</ray>
+  </object>
+  <light>
+    <position>100 -400 300</position>
+    <color>FF0000</color>
+  </light>
+  <camera>
+    <position>-14000 0 1000</position>
+    <rotation>0 4 0</rotation>
+  </camera>
+  <camera>
+    <position>-12000 0 1000</position>
+    <rotation>0 4 0</rotation>
+  </camera>
+  <camera>
+    <position>-10000 0 1000</position>
+    <rotation>0 4 0</rotation>
+  </camera>
+  <camera>
+    <position>-8000 0 1000</position>
+    <rotation>0 4 0</rotation>
+  </camera>
+</scene>

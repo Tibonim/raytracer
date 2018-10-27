@@ -1,0 +1,76 @@
+<scene>
+  <object>
+    <type>plan</type>
+    <position>0 0 0</position>
+    <color>FFFFFF</color>
+    <shine>0</shine>
+  </object>
+  <object>
+    <type>plan</type>
+    <position>1500 0 0</position>
+    <rotation>0 -145 0</rotation>
+    <color>FFFFFF</color>
+    <shine>0</shine>
+  </object>
+  <object>
+    <type>sphere</type>
+    <position>-1500 0 100</position>
+    <color>F369F4</color>
+    <ray>100</ray>
+    <shine>0</shine>
+  </object>
+    <object>
+    <type>sphere</type>
+    <position>-1400 600 800</position>
+    <color>FF0000</color>
+    <ray>100</ray>
+    <shine>0</shine>
+  </object>
+    <object>
+    <type>sphere</type>
+    <position>-1500 -600 300</position>
+    <color>FF0000</color>
+    <ray>100</ray>
+    <shine>0</shine>
+  </object>
+  <object>
+    <type>cylinder</type>
+    <position>-100 500 0</position>
+    <color>0000FF</color>
+    <ray>100</ray>
+    <shine>0</shine>
+  </object>
+  <object>
+    <type>cylinder</type>
+    <position>-100 -500 0</position>
+    <color>0000FF</color>
+    <ray>100</ray>
+    <shine>0</shine>
+  </object>
+  <object>
+    <type>cylinder</type>
+    <position>-2500 700 0</position>
+    <color>0000FF</color>
+    <ray>150</ray>
+    <shine>0</shine>
+  </object>
+  <object>
+    <type>cylinder</type>
+    <position>-2500 -750 0</position>
+    <color>0000FF</color>
+    <ray>150</ray>
+    <shine>0</shine>
+  </object>
+  <light>
+    <color>FFFFFF</color>
+    <position>-5000 -3000 600</position>
+  </light>
+  <light>
+    <color>FFFFFF</color>
+    <position>-5000 3000 600</position>
+  </light>
+  <camera>
+    <position>-9000 0 1000</position>
+    <rotation>0 4 0</rotation>
+  </camera>
+</scene>

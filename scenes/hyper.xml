@@ -1,0 +1,33 @@
+<scene>
+  <object>
+    <type>plan</type>
+    <position>0 0 -400</position>
+    <color>#9F6000</color>
+  </object>
+  <object>
+    <type>hyperbool</type>
+    <position>0 -700 0</position>
+    <rotation>-10 0 0</rotation>
+    <color>7E35A1</color>
+    <ang>50</ang>
+  </object>
+  <object>
+    <type>parabool</type>
+    <position>0 700 0</position>
+    <rotation>10 0 0</rotation>
+    <color>7E35A1</color>
+    <ang>50</ang>
+  </object>
+  <light>
+    <color>FFFFFF</color>
+    <position>0 -4000 500</position>
+  </light>
+  <light>
+    <color>FFFFFF</color>
+    <position>-10010 0 1000</position>
+  </light>
+  <camera>
+    <position>-10000 0 1000</position>
+    <rotation>0 4 0</rotation>
+  </camera>
+</scene>

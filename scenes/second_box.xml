@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene>
+  <object>
+    <type>plan</type>
+    <position>0 0 0</position>
+    <color>FF0000</color>
+    <rotation>0 0 0</rotation>
+    <wave>1</wave>
+    <reflect>0</reflect>
+    <shine>0</shine>
+  </object>
+  <object>
+    <type>plan</type>
+    <position>0 1000 0</position>
+    <rotation>90 0 0</rotation>
+    <color>58C0FF</color>
+    <shine>0</shine>
+  </object>
+  <object>
+    <type>plan</type>
+    <position>0 -1000 0</position>
+    <rotation>-90 0 0</rotation>
+    <color>FFFFFF</color>
+    <shine>0</shine>
+  </object>
+  <object>
+    <type>plan</type>
+    <position>1000 0 0</position>
+    <rotation>0 -90 0</rotation>
+    <color>5FF0FF</color>
+    <shine>0</shine>
+    <opacity>0.3</opacity>
+  </object>
+  <object>
+    <type>sphere</type>
+    <position>0 0 200</position>
+    <color>08C0FF</color>
+    <reflect>0</reflect>
+    <shine>0.9</shine>
+    <ray>300</ray>
+  </object>
+  <light>
+    <position>-100 0 1000</position>
+    <color>FFFFFF</color>
+  </light>
+  <camera>
+    <position>-9000 0 200</position>
+    <rotation>0 -3 0</rotation>
+    <aliasing>0</aliasing>
+    <fast>1</fast>
+  </camera>
+</scene>

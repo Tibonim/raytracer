@@ -1,0 +1,33 @@
+<scene>
+  <object>
+    <type>plan</type>
+    <position>0 0 -400</position>
+    <color>00FF1E</color>
+  </object>
+  <object>
+    <type>sphere</type>
+    <position>0 0 400</position>
+    <color>CC0066</color>
+    <ray>400</ray>
+  </object>
+  <light>
+    <color>FFFFFF</color>
+    <position>200 0 1500</position>
+  </light>
+  <light>
+    <color>FFFFFF</color>
+    <position>0 400 1500</position>
+  </light>
+  <light>
+    <color>FFFFFF</color>
+    <position>0 0 -350</position>
+  </light>
+  <light>
+    <color>FFFFFF</color>
+    <position>0 -400 1500</position>
+  </light>
+  <camera>
+    <position>-9000 4200 300</position>
+    <rotation>0 0 -22</rotation>
+  </camera>
+</scene>
