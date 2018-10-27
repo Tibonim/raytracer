@@ -1,2 +1,2 @@
 # raytracer
-Raytracer in C
+Raytracer in C made during my first year of programming.
